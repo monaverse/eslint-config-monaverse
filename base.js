@@ -44,6 +44,8 @@ module.exports = {
         ignoreReadBeforeAssign: false,
       },
     ],
+    quotes: [2, 'single', { avoidEscape: true }],
+    'sort-keys-fix/sort-keys-fix': 'error',
   },
   settings: {
     'import/resolver': {
