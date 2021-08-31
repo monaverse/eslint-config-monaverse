@@ -1,16 +1,15 @@
 {
-  "author": "Alex Patin",
-  "name": "eslint-config-thealexpatin",
-  "version": "0.1.10",
+  "author": "Monaverse",
+  "name": "eslint-config-monaverse",
+  "version": "0.1.1",
   "bugs": {
-    "url": "https://github.com/thealexpatin/eslint-config-thealexpatin/issues"
+    "url": "https://github.com/monaverse/eslint-config-monaverse/issues"
   },
   "description": "Alex Patin's standard ESLint configurations",
   "devDependencies": {
     "@tsconfig/node14": "^1.0.0",
     "eslint": "^7.18.0",
     "prettier": "^2.2.1",
-    "prettier-config-thealexpatin": "^0.1.1",
     "typescript": "^4.1.3"
   },
   "main": "index.js",
@@ -35,12 +34,13 @@
     "eslint-plugin-standard": "^5.0.0",
     "eslint-plugin-vue": "^7.0.0-alpha.6",
     "eslint-plugin-vue-scoped-css": "^1.1.0",
-    "eslint-plugin-xss": "^0.1.10"
+    "eslint-plugin-xss": "^0.1.10",
+    "prettier-config-monaverse": "^0.1.2"
   },
-  "homepage": "https://github.com/thealexpatin/eslint-config-thealexpatin#readme",
+  "homepage": "https://github.com/monaverse/eslint-config-monaverse#readme",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/thealexpatin/eslint-config-thealexpatin.git"
+    "url": "git+ssh://git@github.com/monaverse/eslint-config-monaverse.git"
   },
   "keywords": [
     "ESLint"
@@ -51,6 +51,6 @@
   },
   "scripts": {
     "lint": "./node_modules/.bin/eslint --fix .",
-    "pub": "npm version patch --force && npm publish"
+    "pub": "yarn version --patch && yarn publish"
   }
 }
