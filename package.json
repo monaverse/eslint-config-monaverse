@@ -5,7 +5,7 @@
   "bugs": {
     "url": "https://github.com/monaverse/eslint-config-monaverse/issues"
   },
-  "description": "Alex Patin's standard ESLint configurations",
+  "description": "MoNA's standard ESLint configurations",
   "devDependencies": {
     "@tsconfig/node14": "^1.0.0",
     "eslint": "^7.18.0",

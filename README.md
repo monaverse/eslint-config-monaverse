@@ -1,4 +1,4 @@
-# eslint-config-thealexpatin[![](https://badge.fury.io/js/eslint-config-thealexpatin.svg)](https://npmjs.org/package/eslint-config-thealexpatin)
+# eslint-config-monaverse[![](https://badge.fury.io/js/eslint-config-monaverse.svg)](https://npmjs.org/package/eslint-config-monaverse)
 
 > My personal ESLint configurations [`eslint`](https://eslint.org) configurations
 
@@ -11,7 +11,7 @@
 **Install**
 
 ```bash
-$ npm install -D eslint-config-thealexpatin
+$ npm install -D eslint-config-monaverse
 ```
 
 **Create `.eslintrc.js`**
@@ -20,7 +20,7 @@ $ npm install -D eslint-config-thealexpatin
 // .eslintrc.js
 
 module.exports = {
-  extends: ["thealexpatin/<extension name>"],
+  extends: ["monaverse/<extension name>"],
 };
 ```
 
@@ -41,7 +41,7 @@ module.exports = {
 // .eslintrc.js
 
 module.exports = {
-  extends: ["thealexpatin/typescript"],
+  extends: ["monaverse/typescript"],
 };
 ```
 
@@ -49,6 +49,6 @@ module.exports = {
 // .eslintrc.js
 
 module.exports = {
-  extends: ["thealexpatin/react-with-typescript"],
+  extends: ["monaverse/react-with-typescript"],
 };
 ```
