@@ -1,7 +1,7 @@
 {
   "author": "Monaverse",
   "name": "eslint-config-monaverse",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "bugs": {
     "url": "https://github.com/monaverse/eslint-config-monaverse/issues"
   },
