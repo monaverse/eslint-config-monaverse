@@ -8,9 +8,9 @@ module.exports = {
   ],
   overrides: [
     {
-      files: ['**.js', '**.json', '**.ts'],
+      files: ['**.vue', '**.jsx', '**.tsx'],
       rules: {
-        'sort-keys-fix/sort-keys-fix': 'error',
+        'sort-keys-fix/sort-keys-fix': 'off',
       },
     },
     {
